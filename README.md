@@ -3,7 +3,7 @@
 Simulate a Segway with a person driving at low speed and passing obstacles
 
 ## Description
-We simulated the Segway with a pid controller, and realized that the manned Segway can maintain balance in the simulated park and pass through multiple obstacles. This is because we use the PID controller to control the error of the angle, so that the Segway's handrail and the ground remain close to 90 degrees. Because the reference is the ground (the floor inside MUJOCO), the Segway can run upright on any slope at 90 degrees relative to the ground. The steering of Segway is achieved by increasing the torque of one wheel on the basis of PID control to make the wheel turn faster. This model was made with MUJOCO.
+We simulated the Segway with a pid controller, and realized that the manned Segway can maintain balance in the simulated park and pass through multiple obstacles. This is because we use the PID controller to control the error of the angle, so that the Segway's handrail and the ground remain close to 90 degrees. Because the reference is the ground (the floor inside MUJOCO), the Segway can run upright on any slope at 90 degrees relative to the ground. The steering of Segway is achieved by increasing the torque of one wheel on the basis of PID control to make the wheel turn faster. This model was made with MUJOCO. This is our final version.
 
 In addition, we have a version that uses QLearning to realize the manned Segway to maintain balance and drive forward.
 
