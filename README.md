@@ -45,7 +45,7 @@ In order to view and edit models in modelPark.xml, the following steps should be
 Jupyter notebook:
 1. Upload all files under the .zip file to JupterLab.
 2. Open the .ipynb file.
-3. Set Kernel to Physx HCI 2 to ensure that all dependent libraries are in the environment.
+3. Set Kernel - Change Kernel - Physx HCI 2 to ensure that all dependent libraries are in the environment.
 4. Click: Kernel - Restart Kernel and Run all Cells.
 
 Remarks, wait for a while to see the video of Segway-v5.ipynb running. For Segway-v0.ipynb, it needs to run for a long time to gradually generate multiple videos to show the training results. Your patience is required here.
